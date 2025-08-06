@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Webpage</title>
+  <style>
+    /* Reset default browser styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(74, 144, 226, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    section {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 5px;
+      font-weight: 600;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    ul.skills-list li {
+      background: #e1ecf7;
+      color: #3178c6;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      box-shadow: 0 2px 4px rgba(49, 120, 198, 0.2);
+    }
+
+    .contact-info a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 600px) {
+      ul.skills-list {
+        flex-direction: column;
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aswini-Gajjala</h1>
+    <p>Web Developer </p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Aswini, a passionate web developer who loves crafting beautiful and functional websites. I enjoy working with modern web technologies and constantly learning new things to improve my skills.</p>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Bachelor of Technology in Computer Science Artificial Intelligence</h3>
+      <p>Madanapalle Institute of Technology and sciences</p>
+    </div>
+    <div class="education-item">
+      <h3>Intermediate (MPC)</h3>
+      <p>Narayana Junior College, 2021 – 2023</p>
+    </div>
+    <div class="education-item">
+      <h3>Secondary School Certificate (SSC)</h3>
+      <p>Sri Bhashyam public School, 2020 – 2021</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-info">
+      Email: <a href="mailto:jane.doe@example.com">aswinigajjala9959@gmail.com</a><br />
+      LinkedIn: <a href="https://linkedin.com/in/janedoe" target="_blank" rel="noopener">aswini gajjala</a><br />
+      GitHub: <a href="https://github.com/janedoe" target="_blank" rel="noopener">github.com/aswini-gajjala</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jane Doe. All rights reserved.
+  </footer>
+</body>
+</html>
